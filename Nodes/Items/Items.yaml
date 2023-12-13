@@ -403,3 +403,26 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 24.0
+- Name: Panel_Pie
+  Type: ObjectLibraryItem
+  Children:
+  - Name: Panel_Pie
+    Id: g=6a250ad82dcb6f56890b0cb595e380b3
+    Supertype: Panel
+    ReferenceType: HasComponent
+    Children:
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 300.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 100.0
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
